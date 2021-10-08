@@ -37,13 +37,21 @@ int mod = a%b;
         boolean t =!(2 == 2 || 3 == 4);
         System.out.println(t);
 
-        printResult(2 + 3);
+        printResult (2 + 3);
         int za = 2 + 4;
-        printResult(za);
+        printResult (za);
+        int result = add(2,6);
+        printResult(result);
+        printResult(add(2,6));
     }
 
     public static void printResult(int result) {
         System.out.println(result);
 
     }
+
+
+    public static int add(int a, int b) {
+        return a + b;
+        }
 }
