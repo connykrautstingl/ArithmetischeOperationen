@@ -23,7 +23,18 @@ int mod = a%b;
         System.out.println(div);
         System.out.println(mod);
 
+        int c = 3;
+        int r = ++a;
 
+        System.out.println(c);
+        System.out.println(r);
+
+
+        String st = new String("a");
+        String sta = new String("a");
+        System.out.println(st.equals(sta));
+
+        boolean t =!(2 == 2 || 3 == 4);
+        System.out.println(t);
     }
-
 }
