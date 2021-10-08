@@ -36,5 +36,14 @@ int mod = a%b;
 
         boolean t =!(2 == 2 || 3 == 4);
         System.out.println(t);
+
+        printResult(2 + 3);
+        int za = 2 + 4;
+        printResult(za);
+    }
+
+    public static void printResult(int result) {
+        System.out.println(result);
+
     }
 }
